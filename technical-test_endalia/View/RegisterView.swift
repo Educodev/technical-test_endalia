@@ -49,7 +49,7 @@ struct RegisterView: View {
                                 
                         }
                         //warning name
-                        warningView(viewModel.isValidateInputName())
+                        warningView(viewModel.isValidateInputPhone())
                     }
                     
                     Divider()
