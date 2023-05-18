@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E94DA1BB2A0D8421008AFE13 /* technical_test_endaliaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94DA1BA2A0D8421008AFE13 /* technical_test_endaliaApp.swift */; };
+		E94DA1BF2A0D8427008AFE13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E94DA1BE2A0D8427008AFE13 /* Assets.xcassets */; };
+		E94DA1C22A0D8427008AFE13 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E94DA1C12A0D8427008AFE13 /* Preview Assets.xcassets */; };
+		E94DA1ED2A0D84C4008AFE13 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94DA1EC2A0D84C3008AFE13 /* LoginView.swift */; };
+		E94DA1F12A0D893F008AFE13 /* DefaultSizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94DA1F02A0D893F008AFE13 /* DefaultSizes.swift */; };
+		E94DA1F32A0D92A9008AFE13 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94DA1F22A0D92A8008AFE13 /* RegisterView.swift */; };
+		E94DA1F52A0D9BC7008AFE13 /* SecureInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94DA1F42A0D9BC7008AFE13 /* SecureInputView.swift */; };
+		E94DA1FC2A0DA4DA008AFE13 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94DA1FB2A0DA4DA008AFE13 /* ViewModel.swift */; };
+		E94DA2002A0DAC97008AFE13 /* UsersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94DA1FF2A0DAC97008AFE13 /* UsersListView.swift */; };
+		E94DA2032A0E1502008AFE13 /* UserResultsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94DA2022A0E1502008AFE13 /* UserResultsModel.swift */; };
+		E94DA2052A0E1547008AFE13 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94DA2042A0E1547008AFE13 /* Services.swift */; };
+		E94DA2072A0E9986008AFE13 /* AppStorages.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94DA2062A0E9986008AFE13 /* AppStorages.swift */; };
+		E94DA20A2A0EA1FE008AFE13 /* PersistenceModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E94DA2082A0EA1FE008AFE13 /* PersistenceModel.xcdatamodeld */; };
+		E94DA20C2A0EA347008AFE13 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94DA20B2A0EA346008AFE13 /* Persistence.swift */; };
+		E94DA20E2A0EBBE0008AFE13 /* Workstation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94DA20D2A0EBBE0008AFE13 /* Workstation.swift */; };
+		E9BD74D92A1576A900600E11 /* RandomUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BD74D82A1576A900600E11 /* RandomUser.swift */; };
+		E9BD74DB2A15931800600E11 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BD74DA2A15931800600E11 /* DetailView.swift */; };
+		E9BD74DD2A15954B00600E11 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BD74DC2A15954B00600E11 /* AvatarView.swift */; };
+		E9BD74E12A15AA0000600E11 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BD74E02A15AA0000600E11 /* SidebarView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E94DA1CD2A0D8428008AFE13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E94DA1AF2A0D8421008AFE13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E94DA1B62A0D8421008AFE13;
+			remoteInfo = "technical-test_endalia";
+		};
+		E94DA1D72A0D8428008AFE13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E94DA1AF2A0D8421008AFE13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E94DA1B62A0D8421008AFE13;
+			remoteInfo = "technical-test_endalia";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E94DA1B72A0D8421008AFE13 /* technical-test_endalia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "technical-test_endalia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E94DA1BA2A0D8421008AFE13 /* technical_test_endaliaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = technical_test_endaliaApp.swift; sourceTree = "<group>"; };
+		E94DA1BE2A0D8427008AFE13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E94DA1C12A0D8427008AFE13 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E94DA1CC2A0D8428008AFE13 /* technical-test_endaliaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "technical-test_endaliaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E94DA1D62A0D8428008AFE13 /* technical-test_endaliaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "technical-test_endaliaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E94DA1EC2A0D84C3008AFE13 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E94DA1F02A0D893F008AFE13 /* DefaultSizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultSizes.swift; sourceTree = "<group>"; };
+		E94DA1F22A0D92A8008AFE13 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		E94DA1F42A0D9BC7008AFE13 /* SecureInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureInputView.swift; sourceTree = "<group>"; };
+		E94DA1FB2A0DA4DA008AFE13 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		E94DA1FF2A0DAC97008AFE13 /* UsersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListView.swift; sourceTree = "<group>"; };
+		E94DA2022A0E1502008AFE13 /* UserResultsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserResultsModel.swift; sourceTree = "<group>"; };
+		E94DA2042A0E1547008AFE13 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		E94DA2062A0E9986008AFE13 /* AppStorages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorages.swift; sourceTree = "<group>"; };
+		E94DA2092A0EA1FE008AFE13 /* PersistenceModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PersistenceModel.xcdatamodel; sourceTree = "<group>"; };
+		E94DA20B2A0EA346008AFE13 /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		E94DA20D2A0EBBE0008AFE13 /* Workstation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workstation.swift; sourceTree = "<group>"; };
+		E9BD74D82A1576A900600E11 /* RandomUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUser.swift; sourceTree = "<group>"; };
+		E9BD74DA2A15931800600E11 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		E9BD74DC2A15954B00600E11 /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
+		E9BD74E02A15AA0000600E11 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E94DA1B42A0D8421008AFE13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E94DA1C92A0D8428008AFE13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E94DA1D32A0D8428008AFE13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E94DA1AE2A0D8421008AFE13 = {
+			isa = PBXGroup;
+			children = (
+				E94DA1B92A0D8421008AFE13 /* technical-test_endalia */,
+				E94DA1B82A0D8421008AFE13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E94DA1B82A0D8421008AFE13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E94DA1B72A0D8421008AFE13 /* technical-test_endalia.app */,
+				E94DA1CC2A0D8428008AFE13 /* technical-test_endaliaTests.xctest */,
+				E94DA1D62A0D8428008AFE13 /* technical-test_endaliaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E94DA1B92A0D8421008AFE13 /* technical-test_endalia */ = {
+			isa = PBXGroup;
+			children = (
+				E94DA2012A0E14DF008AFE13 /* Services */,
+				E94DA1EF2A0D8927008AFE13 /* Util */,
+				E94DA1EE2A0D84D4008AFE13 /* App */,
+				E94DA1EB2A0D8464008AFE13 /* Model */,
+				E94DA1EA2A0D8456008AFE13 /* ViewModel */,
+				E94DA1E92A0D844A008AFE13 /* View */,
+				E94DA1BE2A0D8427008AFE13 /* Assets.xcassets */,
+				E94DA1C02A0D8427008AFE13 /* Preview Content */,
+			);
+			path = "technical-test_endalia";
+			sourceTree = "<group>";
+		};
+		E94DA1C02A0D8427008AFE13 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E94DA1C12A0D8427008AFE13 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E94DA1E92A0D844A008AFE13 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E94DA1EC2A0D84C3008AFE13 /* LoginView.swift */,
+				E94DA1F22A0D92A8008AFE13 /* RegisterView.swift */,
+				E94DA1FF2A0DAC97008AFE13 /* UsersListView.swift */,
+				E9BD74DA2A15931800600E11 /* DetailView.swift */,
+				E9BD74E02A15AA0000600E11 /* SidebarView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E94DA1EA2A0D8456008AFE13 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E94DA1FB2A0DA4DA008AFE13 /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E94DA1EB2A0D8464008AFE13 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E94DA20B2A0EA346008AFE13 /* Persistence.swift */,
+				E94DA2022A0E1502008AFE13 /* UserResultsModel.swift */,
+				E94DA2082A0EA1FE008AFE13 /* PersistenceModel.xcdatamodeld */,
+				E94DA20D2A0EBBE0008AFE13 /* Workstation.swift */,
+				E9BD74D82A1576A900600E11 /* RandomUser.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E94DA1EE2A0D84D4008AFE13 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E94DA1BA2A0D8421008AFE13 /* technical_test_endaliaApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E94DA1EF2A0D8927008AFE13 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				E94DA1F02A0D893F008AFE13 /* DefaultSizes.swift */,
+				E94DA1F42A0D9BC7008AFE13 /* SecureInputView.swift */,
+				E94DA2062A0E9986008AFE13 /* AppStorages.swift */,
+				E9BD74DC2A15954B00600E11 /* AvatarView.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		E94DA2012A0E14DF008AFE13 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E94DA2042A0E1547008AFE13 /* Services.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E94DA1B62A0D8421008AFE13 /* technical-test_endalia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E94DA1E02A0D8428008AFE13 /* Build configuration list for PBXNativeTarget "technical-test_endalia" */;
+			buildPhases = (
+				E94DA1B32A0D8421008AFE13 /* Sources */,
+				E94DA1B42A0D8421008AFE13 /* Frameworks */,
+				E94DA1B52A0D8421008AFE13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "technical-test_endalia";
+			productName = "technical-test_endalia";
+			productReference = E94DA1B72A0D8421008AFE13 /* technical-test_endalia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E94DA1CB2A0D8428008AFE13 /* technical-test_endaliaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E94DA1E32A0D8428008AFE13 /* Build configuration list for PBXNativeTarget "technical-test_endaliaTests" */;
+			buildPhases = (
+				E94DA1C82A0D8428008AFE13 /* Sources */,
+				E94DA1C92A0D8428008AFE13 /* Frameworks */,
+				E94DA1CA2A0D8428008AFE13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E94DA1CE2A0D8428008AFE13 /* PBXTargetDependency */,
+			);
+			name = "technical-test_endaliaTests";
+			productName = "technical-test_endaliaTests";
+			productReference = E94DA1CC2A0D8428008AFE13 /* technical-test_endaliaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E94DA1D52A0D8428008AFE13 /* technical-test_endaliaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E94DA1E62A0D8428008AFE13 /* Build configuration list for PBXNativeTarget "technical-test_endaliaUITests" */;
+			buildPhases = (
+				E94DA1D22A0D8428008AFE13 /* Sources */,
+				E94DA1D32A0D8428008AFE13 /* Frameworks */,
+				E94DA1D42A0D8428008AFE13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E94DA1D82A0D8428008AFE13 /* PBXTargetDependency */,
+			);
+			name = "technical-test_endaliaUITests";
+			productName = "technical-test_endaliaUITests";
+			productReference = E94DA1D62A0D8428008AFE13 /* technical-test_endaliaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E94DA1AF2A0D8421008AFE13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					E94DA1B62A0D8421008AFE13 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					E94DA1CB2A0D8428008AFE13 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = E94DA1B62A0D8421008AFE13;
+					};
+					E94DA1D52A0D8428008AFE13 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = E94DA1B62A0D8421008AFE13;
+					};
+				};
+			};
+			buildConfigurationList = E94DA1B22A0D8421008AFE13 /* Build configuration list for PBXProject "technical-test_endalia" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				es,
+			);
+			mainGroup = E94DA1AE2A0D8421008AFE13;
+			productRefGroup = E94DA1B82A0D8421008AFE13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E94DA1B62A0D8421008AFE13 /* technical-test_endalia */,
+				E94DA1CB2A0D8428008AFE13 /* technical-test_endaliaTests */,
+				E94DA1D52A0D8428008AFE13 /* technical-test_endaliaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E94DA1B52A0D8421008AFE13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E94DA1C22A0D8427008AFE13 /* Preview Assets.xcassets in Resources */,
+				E94DA1BF2A0D8427008AFE13 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E94DA1CA2A0D8428008AFE13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E94DA1D42A0D8428008AFE13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E94DA1B32A0D8421008AFE13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E94DA1F12A0D893F008AFE13 /* DefaultSizes.swift in Sources */,
+				E94DA2072A0E9986008AFE13 /* AppStorages.swift in Sources */,
+				E9BD74E12A15AA0000600E11 /* SidebarView.swift in Sources */,
+				E94DA1F52A0D9BC7008AFE13 /* SecureInputView.swift in Sources */,
+				E94DA20E2A0EBBE0008AFE13 /* Workstation.swift in Sources */,
+				E94DA20A2A0EA1FE008AFE13 /* PersistenceModel.xcdatamodeld in Sources */,
+				E9BD74DD2A15954B00600E11 /* AvatarView.swift in Sources */,
+				E94DA1FC2A0DA4DA008AFE13 /* ViewModel.swift in Sources */,
+				E94DA1F32A0D92A9008AFE13 /* RegisterView.swift in Sources */,
+				E9BD74D92A1576A900600E11 /* RandomUser.swift in Sources */,
+				E94DA2052A0E1547008AFE13 /* Services.swift in Sources */,
+				E94DA20C2A0EA347008AFE13 /* Persistence.swift in Sources */,
+				E94DA2002A0DAC97008AFE13 /* UsersListView.swift in Sources */,
+				E94DA1ED2A0D84C4008AFE13 /* LoginView.swift in Sources */,
+				E94DA2032A0E1502008AFE13 /* UserResultsModel.swift in Sources */,
+				E9BD74DB2A15931800600E11 /* DetailView.swift in Sources */,
+				E94DA1BB2A0D8421008AFE13 /* technical_test_endaliaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E94DA1C82A0D8428008AFE13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E94DA1D22A0D8428008AFE13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E94DA1CE2A0D8428008AFE13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E94DA1B62A0D8421008AFE13 /* technical-test_endalia */;
+			targetProxy = E94DA1CD2A0D8428008AFE13 /* PBXContainerItemProxy */;
+		};
+		E94DA1D82A0D8428008AFE13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E94DA1B62A0D8421008AFE13 /* technical-test_endalia */;
+			targetProxy = E94DA1D72A0D8428008AFE13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E94DA1DE2A0D8428008AFE13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E94DA1DF2A0D8428008AFE13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E94DA1E12A0D8428008AFE13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"technical-test_endalia/Preview Content\"";
+				DEVELOPMENT_TEAM = D4LCM8L22Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "educodev.technical-test-endalia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E94DA1E22A0D8428008AFE13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"technical-test_endalia/Preview Content\"";
+				DEVELOPMENT_TEAM = D4LCM8L22Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "educodev.technical-test-endalia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E94DA1E42A0D8428008AFE13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D4LCM8L22Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "educodev.technical-test-endaliaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/technical-test_endalia.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/technical-test_endalia";
+			};
+			name = Debug;
+		};
+		E94DA1E52A0D8428008AFE13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D4LCM8L22Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "educodev.technical-test-endaliaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/technical-test_endalia.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/technical-test_endalia";
+			};
+			name = Release;
+		};
+		E94DA1E72A0D8428008AFE13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D4LCM8L22Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "educodev.technical-test-endaliaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "technical-test_endalia";
+			};
+			name = Debug;
+		};
+		E94DA1E82A0D8428008AFE13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D4LCM8L22Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "educodev.technical-test-endaliaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "technical-test_endalia";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E94DA1B22A0D8421008AFE13 /* Build configuration list for PBXProject "technical-test_endalia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E94DA1DE2A0D8428008AFE13 /* Debug */,
+				E94DA1DF2A0D8428008AFE13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E94DA1E02A0D8428008AFE13 /* Build configuration list for PBXNativeTarget "technical-test_endalia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E94DA1E12A0D8428008AFE13 /* Debug */,
+				E94DA1E22A0D8428008AFE13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E94DA1E32A0D8428008AFE13 /* Build configuration list for PBXNativeTarget "technical-test_endaliaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E94DA1E42A0D8428008AFE13 /* Debug */,
+				E94DA1E52A0D8428008AFE13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E94DA1E62A0D8428008AFE13 /* Build configuration list for PBXNativeTarget "technical-test_endaliaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E94DA1E72A0D8428008AFE13 /* Debug */,
+				E94DA1E82A0D8428008AFE13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E94DA2082A0EA1FE008AFE13 /* PersistenceModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E94DA2092A0EA1FE008AFE13 /* PersistenceModel.xcdatamodel */,
+			);
+			currentVersion = E94DA2092A0EA1FE008AFE13 /* PersistenceModel.xcdatamodel */;
+			path = PersistenceModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E94DA1AF2A0D8421008AFE13 /* Project object */;
+}
