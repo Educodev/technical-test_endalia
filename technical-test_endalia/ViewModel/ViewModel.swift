@@ -133,9 +133,12 @@ class ViewModel: ObservableObject {
         return checkPassword != passwordTextRegister ? "Las contraseñas no coinciden" : ""
     }
     
+    func isValidateInputPhone() -> String {
+        return phoneRegister.isEmpty ? "Este campo no puede estar vacío" : ""
+    }
     
     func isValidateInputName() -> String {
-        return name.isEmpty || phoneRegister.isEmpty ? "Este campo no puede estar vacío" : ""
+        return name.isEmpty ? "Este campo no puede estar vacío" : ""
     }
     
     func showSidebar() {
