@@ -48,7 +48,7 @@ struct RegisterView: View {
                                 
                                 
                         }
-                        //warning name
+                        //warning phone
                         warningView(viewModel.isValidateInputPhone())
                     }
                     
